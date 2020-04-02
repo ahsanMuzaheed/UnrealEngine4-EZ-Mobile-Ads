@@ -4,8 +4,8 @@
 * Copyright (C) 2017 feiwu <feixuwu@outlook.com> All Rights Reserved.
 */
 
-#include "AdCollection.h"
 #include "AdCollectionBPLibrary.h"
+#include "AdCollection.h"
 
 UAdCollectionBPLibrary::UAdCollectionBPLibrary(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)

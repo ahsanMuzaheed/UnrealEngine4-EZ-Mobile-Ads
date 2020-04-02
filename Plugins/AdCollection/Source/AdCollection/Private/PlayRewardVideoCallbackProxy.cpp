@@ -5,9 +5,8 @@
 */
 
 
-#include "AdCollection.h"
 #include "PlayRewardVideoCallbackProxy.h"
-
+#include "AdCollection.h"
 
 UPlayRewardVideoCallbackProxy::UPlayRewardVideoCallbackProxy() :
 	Delegate(FPlayRewardCompleteDelegate::CreateUObject(this, &ThisClass::OnComplete)), CloseDelegate(FPlayRewardClosedDelegate::CreateUObject(this, &ThisClass::OnClosedCallback) )

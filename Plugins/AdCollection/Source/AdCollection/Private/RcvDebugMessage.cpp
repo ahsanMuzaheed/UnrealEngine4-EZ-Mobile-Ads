@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "AdCollection.h"
 #include "RcvDebugMessage.h"
+#include "AdCollection.h"
 
 URcvDebugMessage::URcvDebugMessage() :
 	RcvDebugMessageDelegate(FDebugMessageDelegate::CreateUObject(this, &ThisClass::OnRcvDebugMessageCallback))
